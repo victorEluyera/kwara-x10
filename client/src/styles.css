@@ -1,25 +1,25 @@
 /* KWARA X10 — design system
    Palette and typography taken from the campaign cover: deep forest green,
-   gold rules and a cream ground, with a serif display face for headings. */
+   red accents and a white ground, with a serif display face for headings. */
 
 :root {
-  --green-900: #043d2d;
-  --green-800: #064b38;
-  --green-700: #086349;
-  --green-600: #0b7a59;
-  --green-500: #1b7d48;
+  --green-900: #004b23;
+  --green-800: #006b32;
+  --green-700: #00843d;
+  --green-600: #009b48;
+  --green-500: #00a651;
   --green-100: #e0efe6;
   --green-50:  #f1f8f4;
 
-  --gold-500: #d4af37;
-  --gold-400: #d9b743;
-  --gold-300: #f0d98a;
-  --gold-700: #8e6d12;
-  --gold-100: #f7eed2;
-  --gold-50:  #fdf9ee;
+  --gold-500: #e31b23;
+  --gold-400: #ef4444;
+  --gold-300: #ffffff;
+  --gold-700: #b5121b;
+  --gold-100: #fee2e2;
+  --gold-50:  #fff5f5;
 
-  --cream:    #f5efe2;
-  --cream-2:  #faf6ec;
+  --cream:    #ffffff;
+  --cream-2:  #f8faf9;
 
   --ink-900: #12180f;
   --ink-800: #232c1f;
@@ -67,7 +67,7 @@
 .portrait-placeholder {
   width: 100%; height: 100%; display: grid; place-items: center;
   background: linear-gradient(160deg, var(--green-800), var(--green-900));
-  border: 1px dashed rgba(240, 217, 138, .4);
+  border: 1px dashed rgba(255, 255, 255, .4);
 }
 .portrait-placeholder-inner { text-align: center; padding: 22px; }
 .portrait-placeholder-text { margin-top: 12px; font-size: 11.5px; color: #b6cdbe;
@@ -115,10 +115,10 @@ a:hover { text-decoration: underline; }
 
 .sidebar::after {
   content: ''; position: absolute; top: 0; right: 0; bottom: 0; width: 2px;
-  background: linear-gradient(180deg, var(--gold-500), rgba(201,162,39,.15) 45%, var(--gold-700));
+  background: linear-gradient(180deg, var(--gold-500), rgba(227,27,35,.15) 45%, var(--gold-700));
 }
 
-.brand { padding: 18px 16px 14px; border-bottom: 1px solid rgba(240,217,138,.16);
+.brand { padding: 18px 16px 14px; border-bottom: 1px solid rgba(255,255,255,.16);
   display: flex; align-items: center; gap: 11px; }
 .brand-mark { font-family: var(--serif); font-size: 20px; font-weight: 700;
   color: #fff; letter-spacing: 0; line-height: 1.1; }
@@ -301,7 +301,7 @@ a:hover { text-decoration: underline; }
     justify-content: space-between;
     gap: 8px;
     padding: 6px 4px 14px;
-    border-bottom: 1px solid rgba(240, 217, 138, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
     margin-bottom: 10px;
   }
   .mobile-nav-panel .brand-mark {
@@ -338,8 +338,8 @@ a:hover { text-decoration: underline; }
   }
   .mobile-nav-panel a.active {
     background: linear-gradient(90deg, rgba(27,125,72,0.9), rgba(20,98,56,0.9));
-    border-color: rgba(240,217,138,0.38);
-    box-shadow: inset 0 0 0 1px rgba(240,217,138,0.10), 0 8px 18px rgba(0,0,0,0.10);
+    border-color: rgba(255,255,255,0.38);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.10), 0 8px 18px rgba(0,0,0,0.10);
   }
   .mobile-nav-panel a:hover {
     background: rgba(255,255,255,0.08);
@@ -509,11 +509,11 @@ textarea { min-height: 70px; resize: vertical; }
 }
 /* double gold frame, as on the printed cover */
 .login-aside::before {
-  content: ''; position: absolute; inset: 14px; border: 1px solid rgba(240,217,138,.5);
+  content: ''; position: absolute; inset: 14px; border: 1px solid rgba(255,255,255,.5);
   pointer-events: none; z-index: 3;
 }
 .login-aside::after {
-  content: ''; position: absolute; inset: 19px; border: 1px solid rgba(240,217,138,.2);
+  content: ''; position: absolute; inset: 19px; border: 1px solid rgba(255,255,255,.2);
   pointer-events: none; z-index: 3;
 }
 

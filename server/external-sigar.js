@@ -22,7 +22,7 @@ import {dashboardPayload} from './external-dashboard.js';
 // the consuming side can see exactly what it is being given.
 
 import { db, nowISO } from './db.js';
-import { SENATORIAL } from './data/geo.js';
+import { SENATORIAL, TOTAL_POLLING_UNITS } from './data/geo.js';
 
 /* ------------------------------ vocabularies ------------------------------- */
 
@@ -202,7 +202,7 @@ export async function areasPayload(query = {}) {
           lgas: 0, registered: 0, verified: 0, pending: 0,
           unit_promoters: 0, grassroots: 0, last_registration: null }),
       targets: {
-        unit_promoters: 1930, engagements: 19300, split_by_lga: false,
+        unit_promoters: TOTAL_POLLING_UNITS * 10, engagements: 19300, split_by_lga: false,
         note: 'Programme-wide targets, not divided by district in this system.',
       },
     };
@@ -237,7 +237,7 @@ export async function areasPayload(query = {}) {
     targets: {
       // The programme's own figures, as this system holds them. If a different
       // number is in circulation, it did not come from here.
-      unit_promoters: 1930,
+      unit_promoters: TOTAL_POLLING_UNITS * 10,
       engagements: 19300,
       split_by_lga: false,
       note: 'Programme-wide targets, not divided by LGA in this system.',

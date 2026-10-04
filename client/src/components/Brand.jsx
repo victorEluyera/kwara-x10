@@ -36,9 +36,9 @@ export function Crest({ size = 44, withText = false }) {
     <svg width={size} height={size} viewBox="0 0 100 100" role="img" aria-label="KWARA X10">
       <defs>
         <linearGradient id="crestGold" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#F0D98A" />
-          <stop offset="45%" stopColor="#C9A227" />
-          <stop offset="100%" stopColor="#8E6D12" />
+          <stop offset="0%" stopColor="#ffb3b7" />
+          <stop offset="45%" stopColor="#e31b23" />
+          <stop offset="100%" stopColor="#b5121b" />
         </linearGradient>
         <linearGradient id="crestGreen" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0%" stopColor="#0E4A2B" />
@@ -53,7 +53,7 @@ export function Crest({ size = 44, withText = false }) {
             fill="none" stroke="url(#crestGold)" strokeWidth="1" opacity=".55" />
 
       {/* KWARA */}
-      <text x="50" y="45" textAnchor="middle" fill="#F5EFE2"
+      <text x="50" y="45" textAnchor="middle" fill="#ffffff"
             style={{ font: '700 14px Georgia, serif', letterSpacing: '1px' }}>KWARA</text>
       {/* 10X */}
       <text x="50" y="68" textAnchor="middle" fill="url(#crestGold)"

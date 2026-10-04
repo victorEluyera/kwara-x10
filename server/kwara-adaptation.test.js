@@ -31,7 +31,8 @@ test('unverified split Assembly wards remain inaccessible instead of sharing a w
 });
 test('coverage targets use the Kwara directory',()=>{
  const targets=scopeTargets({role:'superadmin',scope_type:'state'});
- assert.equal(targets.wards,193);assert.equal(targets.polling_units,2887);
+ assert.equal(targets.wards,193);assert.equal(targets.polling_units,2887);assert.equal(targets.mobilisers,28870);
+ const district=scopeTargets({role:'candidate',office:'Senator',scope_type:'senatorial',scope_value:'Kwara Central'});assert.equal(district.mobilisers,district.polling_units*10);
 });
 test('Kwara communities contain no other-state LGAs; private rosters and voter counts start empty',()=>{
  assert.equal(COMMUNITY_COUNT,5222);

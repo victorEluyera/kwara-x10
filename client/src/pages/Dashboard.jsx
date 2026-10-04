@@ -13,7 +13,6 @@ import CoverageTable from '../components/CoverageTable.jsx';
 import DashboardTables from '../components/DashboardTables.jsx';
 
 const FIELD_ROLES = new Set(['unit_promoter', 'mobiliser', 'grassroot']);
-const UNIT_PROMOTER_TARGET = 65000;
 
 function hasFlag(member, code) {
   try {
@@ -354,6 +353,7 @@ function NumbersDashboard({ data, me }) {
 }
 
 function CampaignAdminDashboard({ data, me, users = [] }) {
+  const UNIT_PROMOTER_TARGET = data?.targets?.mobilisers || 0;
   const coverage = data?.coverage || {};
   const counts = users.reduce((acc, user) => {
     const role = normalizeRole(user.role);
@@ -377,7 +377,7 @@ function CampaignAdminDashboard({ data, me, users = [] }) {
           foot={num(totalPeople) + ' total people in view'} />
         <Stat label="Unit Promoters"
           value={num(nominationCoverage) }
-          foot={pct(nominationCoverage, UNIT_PROMOTER_TARGET) + '% of 65000 target'}
+          foot={pct(nominationCoverage, UNIT_PROMOTER_TARGET) + '% of ' + num(UNIT_PROMOTER_TARGET) + ' target · 10 per polling unit'}
           progress={pct(nominationCoverage, UNIT_PROMOTER_TARGET)} />
         <Stat label="Grassroots" value={num(counts.grassroot)}
           foot="Community-level platform accounts" />
@@ -576,6 +576,7 @@ function DashboardContent({ data }) {
   const { me } = useAuth();
   if (FIELD_ROLES.has(normalizeRole(me.user.role))) return <FieldDashboard data={data} me={me} />;
   const { totals = {}, coverage = {}, targets = {}, by_level = [], by_lga = [] } = data;
+  const UNIT_PROMOTER_TARGET = targets.mobilisers || 0;
   const levels = Object.fromEntries(by_level.map(r => [r.level, Number(r.n)]));
   const projects = data.project_overview || {};
   const sources=data.promoter_sources || {};

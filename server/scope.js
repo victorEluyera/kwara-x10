@@ -174,7 +174,7 @@ export function scopeTargets(user) {
     // Programme-wide goals, unchanged: these are campaign targets, not
     // geography, so they do not shrink with a smaller constituency.
     engagements: TOTAL_WARDS * 100,
-    mobilisers: TOTAL_WARDS * 10,
+    mobilisers: (statewide ? TOTAL_POLLING_UNITS : pollingUnits) * 10,
   };
 }
 
