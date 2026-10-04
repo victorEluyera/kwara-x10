@@ -1,0 +1,12 @@
+node_modules
+client/node_modules
+client/dist
+server/data/*.db
+server/data/*.db-wal
+server/data/*.db-shm
+server/data/credentials.csv
+server/uploads/*
+.git
+.env
+*.md
+docs

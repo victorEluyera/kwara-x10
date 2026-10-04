@@ -1,0 +1,28 @@
+# React frontend and Express API share one Render web service.
+# PostgreSQL is hosted on Neon. Supply its connection string during setup.
+# Uploaded files need a paid web service with a persistent disk for durable storage.
+services:
+  - type: web
+    name: kwarax10
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: KWARA_SECRET
+        generateValue: true
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: SEED_ON_BOOT
+        value: "1"
+      - key: NODE_ENV
+        value: production
+      - key: PGPOOL_MAX
+        value: "5"
+    # Uncomment together with a paid plan to make data survive restarts:
+    # disk:
+    #   name: kwarax10-data
+    #   mountPath: /data
+    #   sizeGB: 1
+

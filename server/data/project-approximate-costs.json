@@ -1,0 +1,682 @@
+{
+  "fertiliser": {
+    "unit_cost": 65000,
+    "unit": "50 kg bag",
+    "estimate": "₦40,000–65,000 / 50 kg bag",
+    "specification": "Suggested quoting baseline: NPK 15:15:15; sealed 50 kg bag; state brand, batch and manufacture date. Urea requires a separate quote.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 2
+  },
+  "seeds": {
+    "unit_cost": 25000,
+    "unit": "bags",
+    "estimate": "Provisional: ₦8,000–25,000 / 2 kg maize seed pack",
+    "specification": "Suggested quoting baseline: Certified improved maize seed, 2 kg sealed pack, named variety and germination rate. Tree seedlings must be priced individually by species and age.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 3
+  },
+  "agrochemicals": {
+    "unit_cost": 12000,
+    "unit": "litres",
+    "estimate": "Provisional: ₦5,000–12,000 / litre",
+    "specification": "Suggested quoting baseline: One sealed 1 L herbicide bottle; specify active ingredient, concentration, registration and expiry; no interchangeable product assumption.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 4
+  },
+  "sprayer": {
+    "unit_cost": 34000,
+    "unit": "pieces",
+    "estimate": "₦16,000–34,000 / piece",
+    "specification": "Suggested quoting baseline: Manual 16 L backpack sprayer, adjustable nozzle, lance, straps and repair seals; exclude motorised/premium models.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 5
+  },
+  "farm_tools": {
+    "unit_cost": 25000,
+    "unit": "sets",
+    "estimate": "Provisional: ₦12,000–25,000 / set",
+    "specification": "Suggested quoting baseline: One cutlass and one hoe with fitted handles; state steel quality and dimensions.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 6
+  },
+  "livestock": {
+    "unit_cost": 300000,
+    "unit": "animals",
+    "estimate": "Goat ₦70,000–150,000; sheep/ram ₦120,000–300,000 / animal",
+    "specification": "Assumed scope: One healthy medium-sized adult goat or sheep/ram, approximately 20–40 kg live weight; actual breed, sex and weight determine quote. Transport and veterinary checks extra.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 7
+  },
+  "poultry": {
+    "unit_cost": 3000,
+    "unit": "birds",
+    "estimate": "Provisional: ₦1,500–3,000 / day-old chick only",
+    "specification": "Suggested quoting baseline: One vaccinated day-old broiler chick, named hatchery and strain. Define full starter pack separately: number of chicks, feed, drinkers, feeders and veterinary support.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 8
+  },
+  "fishery": {
+    "unit_cost": 600000,
+    "unit": "units",
+    "estimate": "Fingerling ₦100–250 each; pond ₦250,000–600,000 each",
+    "specification": "Assumed scope: Catfish fingerlings approximately 5–8 cm; pond allowance for one 3 m × 2 m × 1 m tarpaulin tank with frame and outlet. Fish, feed, site slab and water supply separate.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 9
+  },
+  "tractor_support": {
+    "unit_cost": 150000,
+    "unit": "beneficiaries for 1 hectare",
+    "estimate": "Provisional: ₦60,000–150,000 / beneficiary for 1 hectare",
+    "specification": "Suggested quoting baseline: One hectare, one ploughing pass; state soil condition, site access, mobilisation and fuel; harrowing/ridging quoted separately.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 10
+  },
+  "processing_machine": {
+    "unit_cost": 1200000,
+    "unit": "pieces",
+    "estimate": "₦350,000–1,200,000 / machine",
+    "specification": "Assumed scope: One locally fabricated small cassava grater OR maize sheller, approximately 200–500 kg/hour, with small engine/motor; not a complete processing line. Confirm actual throughput.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 11
+  },
+  "cash_grant": {
+    "unit_cost": 250000,
+    "unit": "beneficiaries",
+    "estimate": "Proposed allocation: ₦50,000–250,000 / beneficiary",
+    "specification": "Suggested quoting baseline: One-off microbusiness grant; define eligibility, approved amount, disbursement method and any separate training package.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 12
+  },
+  "cash_palliative": {
+    "unit_cost": 50000,
+    "unit": "beneficiaries",
+    "estimate": "Proposed allocation: ₦10,000–30,000 / beneficiary",
+    "specification": "Suggested quoting baseline: One cash transfer for the specified support cycle; define frequency and number of recipients.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 13
+  },
+  "widow_support": {
+    "unit_cost": 100000,
+    "unit": "beneficiaries",
+    "estimate": "Proposed allocation: ₦25,000–100,000 / beneficiary",
+    "specification": "Suggested quoting baseline: One-off cash support; separate food, equipment or livelihood packages if provided.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 14
+  },
+  "scholarship": {
+    "unit_cost": 200000,
+    "unit": "Beneficiaries",
+    "estimate": "Proposed bursary: ₦50,000–200,000 / beneficiary / year",
+    "specification": "Suggested quoting baseline: Partial annual bursary. Full scholarship must specify tuition, accommodation, books, course and institution.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 15
+  },
+  "disability_support": {
+    "unit_cost": 100000,
+    "unit": "beneficiaries",
+    "estimate": "Proposed allocation: ₦25,000–100,000 / beneficiary",
+    "specification": "Suggested quoting baseline: One-off cash or livelihood support; define purpose and eligibility. Personalised assistive devices budgeted separately.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 16
+  },
+  "elderly_support": {
+    "unit_cost": 50000,
+    "unit": "beneficiaries",
+    "estimate": "Proposed allocation: ₦20,000–50,000 / beneficiary / cycle",
+    "specification": "Suggested quoting baseline: Cash or food support for one stated monthly/quarterly/one-off cycle; medical care and home support separately scoped.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 17
+  },
+  "town_hall": {
+    "unit_cost": 60000000,
+    "unit": "units",
+    "estimate": "₦30,000,000– 60,000,000 / hall",
+    "specification": "Assumed scope: 150 m² single-storey basic hall at assumed ₦200,000–400,000/m². Basic finishes and electrical work; land, furniture, external works and standalone toilet block extra.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 18
+  },
+  "worship_support": {
+    "unit_cost": 2000000,
+    "unit": "units",
+    "estimate": "Proposed contribution: ₦250,000–2,000,000 / institution",
+    "specification": "Suggested quoting baseline: Define cash contribution or named renovation/material package; record beneficiary institution and scope.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 19
+  },
+  "cemetery": {
+    "unit_cost": 20000000,
+    "unit": "units",
+    "estimate": "₦8,000,000–20,000,000 / site",
+    "specification": "Assumed scope: Existing approximately 1,000 m² site; basic clearance, approximately 130 m perimeter fence, one gate and simple paths. No land purchase, major drainage or buildings.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 20
+  },
+  "ict_equipment": {
+    "unit_cost": 800000,
+    "unit": "units",
+    "estimate": "Provisional: ₦400,000–800,000 / new laptop",
+    "specification": "Suggested quoting baseline: New laptop, Core i5/Ryzen 5 equivalent, 8 GB RAM minimum, 256 GB SSD minimum, licensed OS, charger and warranty; state processor generation.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 21
+  },
+  "classroom_block": {
+    "unit_cost": 25000000,
+    "unit": "rooms",
+    "estimate": "₦15,000,000–25,000,000 / classroom",
+    "specification": "Assumed scope: One 8 m × 7 m classroom plus proportionate veranda/shared structure, approximately 70 m² gross allocation; basic finishes. A three-room block is approximately ₦45m–75m. Furniture/toilets extra.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 22
+  },
+  "school_renovation": {
+    "unit_cost": 6000000,
+    "unit": "rooms",
+    "estimate": "₦2,000,000–6,000,000 / room",
+    "specification": "Assumed scope: One 8 m × 7 m classroom: moderate roof, floor, plaster/paint, doors/windows and electrical repairs; excludes major structural reconstruction.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 23
+  },
+  "school_furniture": {
+    "unit_cost": 190000,
+    "unit": "sets",
+    "estimate": "₦113,000–190,000 / double-seat set",
+    "specification": "Suggested quoting baseline: One desk plus seating for two pupils; specify timber/steel or moulded design, age group, dimensions and finish.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 24
+  },
+  "exam_fees": {
+    "unit_cost": 40000,
+    "unit": "students",
+    "estimate": "JAMB ₦7,200–8,700; WAEC/NECO allowance ₦30,000–40,000 / exam",
+    "specification": "Assumed scope: One student sitting one examination; JAMB 2026 fee package with/without mock. WAEC/NECO numbers are provisional support allowances, not verified official fees; exclude tuition/transport.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 25
+  },
+  "school_books": {
+    "unit_cost": 12000,
+    "unit": "sets",
+    "estimate": "Provisional: ₦5,000–12,000 / set",
+    "specification": "Suggested quoting baseline: Ten 40–60-leaf exercise books, two pens, two pencils, ruler, eraser and sharpener; textbooks and school bag excluded.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 26
+  },
+  "school_fence": {
+    "unit_cost": 120000,
+    "unit": "metres",
+    "estimate": "₦60,000–120,000 / linear metre",
+    "specification": "Assumed scope: 2.1 m high block fence, standard foundations and columns on ordinary ground; basic finish. Gates and unusually deep foundations extra.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 27
+  },
+  "skills_training": {
+    "unit_cost": 200000,
+    "unit": "beneficiaries",
+    "estimate": "Proposed allocation: ₦50,000–200,000 / trainee",
+    "specification": "Suggested quoting baseline: Example 4–8 week practical course; specify trade, contact hours, trainer, venue, consumables, assessment and certificate.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 28
+  },
+  "solar_street_light": {
+    "unit_cost": 500000,
+    "unit": "pieces",
+    "estimate": "Provisional installed allowance: ₦350,000–750,000 / point",
+    "specification": "Suggested quoting baseline: LED luminaire with verified output, panel, battery and controller; 6–8 m pole, foundation and installation. Require documented nightly operating profile and warranty.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 29
+  },
+  "street_light_repair": {
+    "unit_cost": 200000,
+    "unit": "pieces",
+    "estimate": "Provisional: ₦30,000–200,000 / point",
+    "specification": "Suggested quoting baseline: Fault diagnosis and replacement of specified lamp, battery, controller or wiring; existing pole assumed serviceable.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 30
+  },
+  "transformer": {
+    "unit_cost": 28000000,
+    "unit": "units",
+    "estimate": "₦14,000,000–20,000,000 supply; ₦18,000,000–28,000,000 installed",
+    "specification": "Assumed scope: 300 kVA, 11 kV/415 V distribution transformer; installation allowance assumes local transport, plinth, standard protection, earthing and short cable runs. Major line extension extra; utility approval required.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 31
+  },
+  "transformer_repair": {
+    "unit_cost": 7000000,
+    "unit": "units",
+    "estimate": "Minor service ₦500,000–2,000,000; major repair ₦3,000,000–7,000,000",
+    "specification": "Assumed scope: 300 kVA unit. Minor allowance: oil/service, bushings or connections; major allowance: substantial winding/components work. Diagnose and test before choosing allowance.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 32
+  },
+  "electric_pole": {
+    "unit_cost": 178000,
+    "unit": "poles",
+    "estimate": "Indicative: ₦120,000–178,000 / pole, supply only",
+    "specification": "Suggested quoting baseline: Choose 8.54 m LT or 10.36 m HT reinforced concrete pole; approved loading class, traceable batch and certification; utility to confirm selection.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 33
+  },
+  "electric_cable": {
+    "unit_cost": 80000,
+    "unit": "rolls/ 100 m roll",
+    "estimate": "₦40,000–80,000 / 100 m roll",
+    "specification": "Assumed scope: 100 m roll of 2.5 mm² single-core copper building wire, named manufacturer; not armoured cable or overhead power conductor. Installation extra.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 34
+  },
+  "power_extension": {
+    "unit_cost": 35000,
+    "unit": "metres",
+    "estimate": "₦15,000–35,000 / route metre",
+    "specification": "Assumed scope: Short low-voltage overhead extension on accessible ground, approximately 40 m pole spacing, poles/conductors/fittings and installation. Excludes transformer, HT works and difficult crossings.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 35
+  },
+  "solar_home_system": {
+    "unit_cost": 500000,
+    "unit": "units",
+    "estimate": "Provisional: lantern ₦15,000–50,000; home kit ₦150,000–500,000",
+    "specification": "Suggested quoting baseline: Lantern: rechargeable LED with panel. Home kit: panel, battery, controller, 3–4 LED lamps and phone charging; specify Wh capacity and runtime.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 36
+  },
+  "generator": {
+    "unit_cost": 700000,
+    "unit": "units",
+    "estimate": "Provisional: ₦350,000–700,000 / unit",
+    "specification": "Suggested quoting baseline: New petrol generator around 2.5–3 kW continuous output; confirm continuous versus peak rating, warranty, noise and fuel consumption.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 37
+  },
+  "waste_bins": {
+    "unit_cost": 120000,
+    "unit": "units",
+    "estimate": "Bins: ₦70,000–120,000 / 240 L bin; evacuation separately",
+    "specification": "Suggested quoting baseline: Wheeled 240 L HDPE bin with lid; evacuation to specify truck volume, trips, collection frequency and disposal fees.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 38
+  },
+  "drainage": {
+    "unit_cost": 160000,
+    "unit": "metres/ linear metre",
+    "estimate": "₦80,000–160,000 / linear metre",
+    "specification": "Assumed scope: Open concrete drain, approximately 600 mm internal width × 600 mm depth on ordinary ground, assumed 150 mm base/walls subject to design; excavation and basic outfall connection. Covers/major outfall extra.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 39
+  },
+  "erosion_control": {
+    "unit_cost": 400000,
+    "unit": "metres/ linear metre",
+    "estimate": "₦150,000–400,000 / linear metre",
+    "specification": "Assumed scope: Small gabion retaining protection approximately 1 m high × 1 m wide, with prepared base/filter and minor drainage. Excludes deep gullies and major river training; engineered design required.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 40
+  },
+  "medical_outreach": {
+    "unit_cost": 15000,
+    "unit": "attendee",
+    "estimate": "Proposed budget: ₦5,000–15,000 / attendee",
+    "specification": "Suggested quoting baseline: Basic consultation and screening package for a stated attendance; provider to itemise staffing, tests, consumables, venue and logistics.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 41
+  },
+  "free_drugs": {
+    "unit_cost": 10000,
+    "unit": "beneficiaries",
+    "estimate": "Proposed budget: ₦3,000–10,000 / beneficiary",
+    "specification": "Suggested quoting baseline: Provider-defined medicine package based on assessed needs; record generic names, strengths, quantities and expiry.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 42
+  },
+  "mosquito_nets": {
+    "unit_cost": 3200,
+    "unit": "pieces",
+    "estimate": "₦2,400–3,200 / listed net; confirm treatment specification",
+    "specification": "Suggested quoting baseline: Rectangular bed net, state exact dimensions and insecticidal-treatment status; for malaria programmes request approved long-lasting insecticidal nets.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 43
+  },
+  "phc_renovation": {
+    "unit_cost": 30000000,
+    "unit": "units",
+    "estimate": "₦10,000,000–30,000,000 / facility",
+    "specification": "Assumed scope: Existing approximately 150 m² primary healthcare building; moderate roof/finishes, electrical, plumbing and toilet repairs. No major structural rebuilding, equipment or extension.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 44
+  },
+  "medical_equipment": {
+    "unit_cost": 1500000,
+    "unit": "units",
+    "estimate": "₦500,000–1,500,000 / basic equipment set",
+    "specification": "Assumed scope: One examination couch, BP monitor, stethoscope, thermometer, weighing scale and instrument trolley; verify model, accessories and warranty. No laboratory/imaging or surgical equipment.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 45
+  },
+  "maternal_pack": {
+    "unit_cost": 25000,
+    "unit": "packs",
+    "estimate": "Provisional: ₦10,000–25,000 / pack",
+    "specification": "Suggested quoting baseline: Facility-approved maternity consumables pack; specify gloves, underpads, maternity pads, cord clamps, baby wrap and exact quantities.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 46
+  },
+  "ambulance": {
+    "unit_cost": 50000000,
+    "unit": "vehicles",
+    "estimate": "Tricycle ₦7,500,000–12,000,000; used van conversion ₦25,000,000–50,000,000",
+    "specification": "Assumed scope: Basic patient-transport tricycle OR inspected used van with stretcher and basic conversion. Not a new advanced-life-support ambulance; clinical equipment schedule and vehicle inspection required.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 47
+  },
+  "health_insurance": {
+    "unit_cost": 30000,
+    "unit": "beneficiaries",
+    "estimate": "Provisional ₦20,000–30,000 / person / year",
+    "specification": "Assumed scope: One basic individual health insurance policy for 12 months; actual OYSHIA eligibility, premium and benefits must be confirmed. This is a budgeting allowance, not an official tariff.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 48
+  },
+  "market_stall": {
+    "unit_cost": 6000000,
+    "unit": "units",
+    "estimate": "₦3,000,000–6,000,000 / shop",
+    "specification": "Assumed scope: One 3 m × 3 m lock-up shop; ordinary foundations, walls, roof, floor, steel door and basic wiring. Land and shared external services extra.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 49
+  },
+  "market_shed": {
+    "unit_cost": 2500000,
+    "unit": "units",
+    "estimate": "₦1,000,000–2,500,000 / bay",
+    "specification": "Assumed scope: One 3 m × 3 m open-sided steel-framed roofed bay on a concrete slab; basic foundation and installation. Land and extensive drainage extra.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 50
+  },
+  "palliative_food": {
+    "unit_cost": 30000,
+    "unit": "packs",
+    "estimate": "Provisional basket: ₦15,000–30,000 / pack",
+    "specification": "Suggested quoting baseline: Example: rice 5 kg, beans 2 kg, garri 2 kg, vegetable oil 1 L and salt 500 g; sealed packaging and quantities documented.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 51
+  },
+  "rice": {
+    "unit_cost": 18000,
+    "unit": "10 kg bag",
+    "estimate": "Indicative: ₦18000 10 kg bag",
+    "specification": "Suggested quoting baseline: Sealed 50 kg bag of parboiled rice; specify local/imported brand, grade, production date and net weight.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 52
+  },
+  "festive_relief": {
+    "unit_cost": 35000,
+    "unit": "packs",
+    "estimate": "Proposed basket: ₦15,000–35,000 / pack",
+    "specification": "Suggested quoting baseline: Rice 5 kg, oil 1 L, pasta four 500 g packs, sugar 1 kg and other approved items; clearly list substitutions.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 53
+  },
+  "wheelchair": {
+    "unit_cost": 195000,
+    "unit": "pieces",
+    "estimate": "₦179,000–195,000 / basic manual wheelchair",
+    "specification": "Suggested quoting baseline: Foldable self-propelled wheelchair, brakes, armrests and footrests; seat width and load capacity fitted to user.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 54
+  },
+  "mobility_aid": {
+    "unit_cost": 34000,
+    "unit": "pieces",
+    "estimate": "₦18,000–34,000 / pair of crutches",
+    "specification": "Suggested quoting baseline: Pair of height-adjustable adult crutches with rubber tips; state underarm or elbow type and size. Walking frames/sticks priced separately.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 55
+  },
+  "sensory_aid": {
+    "unit_cost": 60000,
+    "unit": "pieces",
+    "estimate": "Eyeglasses ₦20,000–60,000 / pair; hearing aid ₦150,000–500,000 / device",
+    "specification": "Assumed scope: Basic prescription single-vision spectacles with frame OR entry-level fitted hearing aid. Assessment, specialist lenses and advanced digital devices can cost more.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 56
+  },
+  "road_grading": {
+    "unit_cost": 5000000,
+    "unit": "kilometres",
+    "estimate": "₦1,000,000–5,000,000 / km",
+    "specification": "Assumed scope: Regrading an existing accessible 1 km × 6 m earth road, shaping/camber and limited compaction with shared mobilisation. No imported fill, major clearing or new drainage.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 57
+  },
+  "road_filling": {
+    "unit_cost": 25000000,
+    "unit": "kilometres",
+    "estimate": "₦12,000,000–25,000,000 / km",
+    "specification": "Assumed scope: 1 km × 6 m × 150 mm compacted laterite = 900 m³; approved material, moderate haul distance, spreading and compaction. No asphalt or major drainage.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 58
+  },
+  "road_asphalt": {
+    "unit_cost": 100000000,
+    "unit": "kilometres",
+    "estimate": "₦100,000,000–150,000,000 / km overlay",
+    "specification": "Assumed scope: 1 km × 6 m = 6,000 m², 50 mm asphalt wearing course on an already sound prepared base. Full reconstruction, major base repair, drainage and land acquisition excluded.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 59
+  },
+  "pothole_repair": {
+    "unit_cost": 500000,
+    "unit": "metres",
+    "estimate": "₦25,000–50,000 / m²",
+    "specification": "Assumed scope: Cut/remove damaged material, minor base repair, tack coat and approximately 50 mm asphalt patch compacted. Original unit metres should be m²; deeper repairs cost more.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 60
+  },
+  "culvert": {
+    "unit_cost": 12000000,
+    "unit": "culverts",
+    "estimate": "₦5,000,000–12,000,000 / crossing",
+    "specification": "Assumed scope: Single 900 mm diameter pipe crossing approximately 8 m long, ordinary excavation, bedding, headwalls and aprons; no major flow diversion or deep foundation. Design subject to hydraulic assessment.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 61
+  },
+  "bridge": {
+    "unit_cost": 200000000,
+    "unit": "units",
+    "estimate": "Footbridge ₦15,000,000–40,000,000; small vehicle bridge ₦80,000,000–200,000,000",
+    "specification": "Assumed scope: Pedestrian steel bridge assumed 10 m span × 1.5 m width; vehicle bridge assumed 6 m span × 6 m width. Ordinary foundations; excludes deep piles and extensive approaches. Design mandatory.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 62
+  },
+  "security_post": {
+    "unit_cost": 6000000,
+    "unit": "units",
+    "estimate": "₦3,000,000–6,000,000 / post",
+    "specification": "Assumed scope: One 3 m × 3 m guardhouse with roof, doors/windows, basic lighting and finish. Toilet, road barrier, solar system and site fencing extra.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 63
+  },
+  "vigilante_support": {
+    "unit_cost": 75000,
+    "unit": "beneficiaries",
+    "estimate": "Proposed stipend: ₦30,000–75,000 / person / month",
+    "specification": "Suggested quoting baseline: Monthly support for one approved local security operative; define duty period, uniforms, torch, communications and supervision separately.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 64
+  },
+  "security_vehicle": {
+    "unit_cost": 30000000,
+    "unit": "vehicles",
+    "estimate": "Motorcycle ₦1,190,000–1,500,000; used pickup ₦15,000,000–30,000,000",
+    "specification": "Assumed scope: New 125–150 cc motorcycle OR inspected used 2010–2015 class pickup in serviceable condition. Registration, insurance, radios, branding and operating expenses separate.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 65
+  },
+  "cctv": {
+    "unit_cost": 420000,
+    "unit": "units",
+    "estimate": "Indicative: ₦290,000–420,000 / 4-camera system",
+    "specification": "Suggested quoting baseline: Four HD/IP cameras as selected, recorder, 1 TB storage, power supply, cables and basic installation; specify camera resolution and coverage.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 66
+  },
+  "sewing_machine": {
+    "unit_cost": 215000,
+    "unit": "pieces",
+    "estimate": "Benchmark: ₦215,000 / manual machine",
+    "specification": "Suggested quoting baseline: Butterfly JA2-1 or equivalent manual straight-stitch machine; confirm table, stand, pedal and accessories in quote.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 67
+  },
+  "grinding_machine": {
+    "unit_cost": 195000,
+    "unit": "pieces",
+    "estimate": "Benchmark: ₦195,000 / listed machine",
+    "specification": "Suggested quoting baseline: Small beans grinding machine; supplier must confirm engine/motor, grinding head, throughput, stand and food-contact materials.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 68
+  },
+  "hairdressing_kit": {
+    "unit_cost": 350000,
+    "unit": "sets",
+    "estimate": "Provisional: barbing ₦80,000–200,000; hairdressing ₦150,000–350,000 / set",
+    "specification": "Suggested quoting baseline: Barbing: two clippers, trimmer, disinfecting kit, combs/capes. Hairdressing: dryer, straightener, combs, rollers and accessories; state exact contents.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 69
+  },
+  "welding_machine": {
+    "unit_cost": 145000,
+    "unit": "pieces",
+    "estimate": "₦117,000–145,000 / inverter welder",
+    "specification": "Suggested quoting baseline: Mains-powered MMA 250 A class machine; verify duty cycle, input power, leads and warranty; protective equipment separate.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 70
+  },
+  "block_machine": {
+    "unit_cost": 2500000,
+    "unit": "pieces",
+    "estimate": "₦800,000–2,500,000 / machine",
+    "specification": "Assumed scope: Small locally fabricated vibrating block machine, 6-inch/9-inch mould options and motor/engine; confirm mould count and output. Mixer, pallets, shed and working capital excluded.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 71
+  },
+  "deep_freezer": {
+    "unit_cost": 485000,
+    "unit": "pieces",
+    "estimate": "₦410,000–485,000 / about 200 L freezer",
+    "specification": "Suggested quoting baseline: New approximately 200 L chest freezer, 230 V AC; named model, compressor warranty and energy rating.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 72
+  },
+  "trader_kit": {
+    "unit_cost": 200000,
+    "unit": "sets",
+    "estimate": "Proposed allocation: ₦50,000–200,000 / beneficiary set",
+    "specification": "Suggested quoting baseline: Define trade and itemised opening stock, display container and basic tools; quantity/brand for each component.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 73
+  },
+  "sports_kit": {
+    "unit_cost": 25000,
+    "unit": "sets",
+    "estimate": "Provisional: ₦10,000–25,000 / player set",
+    "specification": "Suggested quoting baseline: One jersey, shorts and socks with basic printing; record size mix; boots, balls and team equipment excluded.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 74
+  },
+  "sports_competition": {
+    "unit_cost": 2000000,
+    "unit": "units",
+    "estimate": "Proposed allocation: ₦500,000–2,000,000 / event",
+    "specification": "Suggested quoting baseline: Example: eight-team local tournament; itemise venue, officials, first aid, prizes, publicity and logistics.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 75
+  },
+  "playing_field": {
+    "unit_cost": 10000000,
+    "unit": "units",
+    "estimate": "₦3,000,000–10,000,000 / field",
+    "specification": "Assumed scope: Approximately 60 m × 40 m existing earth/grass field; minor levelling, grass repairs, marking and two goalposts. No artificial turf, major drainage, stands or lighting.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 76
+  },
+  "motorcycle": {
+    "unit_cost": 1500000,
+    "unit": "units",
+    "estimate": "₦1,190,000–1,500,000 / new motorcycle",
+    "specification": "Suggested quoting baseline: New Bajaj Boxer/TVS class 125–150 cc motorcycle; specify model, warranty and included helmet/accessories.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 77
+  },
+  "tricycle": {
+    "unit_cost": 5500000,
+    "unit": "units",
+    "estimate": "Indicative: ₦3,900,000–5,500,000 / passenger tricycle",
+    "specification": "Suggested quoting baseline: New Bajaj/TVS passenger tricycle; specify petrol or CNG, model and warranty. Cargo variants priced separately.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 78
+  },
+  "bus_shelter": {
+    "unit_cost": 7000000,
+    "unit": "units",
+    "estimate": "₦3,000,000–7,000,000 / shelter",
+    "specification": "Assumed scope: 6 m × 2 m steel-framed shelter with roof, slab, simple seating and signage; ordinary foundations. Solar lighting and road reconstruction extra.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 79
+  },
+  "motor_park": {
+    "unit_cost": 40000000,
+    "unit": "units",
+    "estimate": "₦15,000,000–40,000,000 / park",
+    "specification": "Assumed scope: Approximately 1,000 m² existing park; local surface repairs/compacted stone improvement, minor drains, markings and basic lighting. No full asphalt reconstruction or new buildings.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 80
+  },
+  "borehole": {
+    "unit_cost": 5000000,
+    "unit": "boreholes",
+    "estimate": "Provisional budget: ₦2,500,000–5,000,000 / complete borehole",
+    "specification": "Suggested quoting baseline: Survey-led depth; drilling, casing, development, yield test, water-quality test and electric submersible pump. Tank/stand/network priced separately.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 81
+  },
+  "borehole_solar": {
+    "unit_cost": 8000000,
+    "unit": "boreholes",
+    "estimate": "Provisional budget: ₦4,000,000–8,000,000 / system",
+    "specification": "Suggested quoting baseline: New borehole plus correctly sized solar pump, PV array, controller, mounting and protection; define required head and daily yield; tank/stand separately.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 82
+  },
+  "borehole_repair": {
+    "unit_cost": 1000000,
+    "unit": "boreholes",
+    "estimate": "Provisional: ₦150,000–1,000,000 / borehole",
+    "specification": "Suggested quoting baseline: Diagnose pump, control panel, riser pipe and cable; distinguish electrical repair, pump replacement and redevelopment; replacement drilling excluded.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 83
+  },
+  "water_tank": {
+    "unit_cost": 230000,
+    "unit": "units/ 2,000 L tank",
+    "estimate": "Indicative: ₦230,000 / 2,000 L tank",
+    "specification": "Suggested quoting baseline: One 2,000 L food-grade plastic water tank with lid; named brand and warranty; delivery, base/tower, valves and plumbing separate.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 84
+  },
+  "standpipe": {
+    "unit_cost": 1200000,
+    "unit": "units",
+    "estimate": "₦500,000–1,200,000 / water point",
+    "specification": "Assumed scope: Three taps on masonry/concrete stand, apron and soakaway, up to 20 m pipe connection to an existing supply. Borehole, storage and pumping excluded.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 85
+  },
+  "public_toilet": {
+    "unit_cost": 25000000,
+    "unit": "units/ 2,000 L tank",
+    "estimate": "₦12,000,000–25,000,000 / four-cubicle block",
+    "specification": "Assumed scope: Approximately 30–40 m² basic four-cubicle block including accessible provision, handwashing and modest septic/soakaway on suitable ground. Borehole/long water connection extra.",
+    "source_file": "Project_Item_Approximate_Costs.xlsx",
+    "source_row": 86
+  }
+}

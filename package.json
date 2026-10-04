@@ -1,0 +1,26 @@
+{
+  "name": "kwarax10",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n API,WEB -c cyan,magenta \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": "node server/index.js",
+    "dev:web": "npm --prefix client run dev",
+    "seed": "node server/seed.js",
+    "seed:grassroots": "node server/seed-grassroots.js",
+    "build": "npm --prefix client run build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "setup": "npm install && npm --prefix client install && npm run seed"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3"
+  }
+}
